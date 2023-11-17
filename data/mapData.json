@@ -1,0 +1,15 @@
+{
+  "countries": ["US", "CA"],
+  "data": {
+    "flag": {
+      "name": "Flag",
+      "format": "{0}",
+      "thousandSeparator": ","
+    },
+    "tip": {
+      "name": "Tip",
+      "format": "{0}"
+    }
+  },
+  "applyData": "flag"
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.svgMap-map-wrapper {
+    background-color: white;
+}
+
+#svgMap {
+    width: 1200px;
+    border: 3px solid #2c3e50;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+/* Hover effect for countries */
+.svgMap-country {
+    transition: fill 2s ease;
+}
+
+.svgMap-country:hover {
+    fill: #3498db;
+}
