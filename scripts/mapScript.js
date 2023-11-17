@@ -19,6 +19,7 @@ loadMapData().then(mapData => {
     targetElementID: 'svgMap',
     minZoom: 0.8,
     initialZoom: 1.0,
+    zoomScaleSensitivity: 0.6,
     mouseWheelZoomWithKey: true,
     mouseWheelKeyMessage: 'Press the [CTRL] key to zoom',
     colorMax: '#b3b1b1', // Gold color for the highest value

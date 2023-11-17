@@ -1,5 +1,5 @@
 {
-  "countries": ["US", "CA"],
+  "countries": ["US", "CA", "MX", "GT", "DO", "CO", "EC", "PE", "BO", "CL", "AR", "UY", "BR", "IS", "IE", "GB", "NO", "SE", "FI", "EE", "LT", "PL", "DK"],
   "data": {
     "flag": {
       "name": "Flag",
