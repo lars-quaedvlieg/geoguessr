@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="filterbox" filterbox>
+
+            <div class="search-wrapper">
+                <label for="CountryInput">Search Countries</label>
+                <input type="search" id="CountryInput" country-input>
+
+                <label for="FilterInput">Search Filters</label>
+                <input type="search" id="FilterInput" data-input>
+            </div>
+            <div class="filter-tree-list" filterlist></div>
+        </div>
+
+        <div class="CountryWrapper">
+            <div class="continent" parent-africa>
+                <div class="continentName">
+                    <p>Africa</p>
+                </div>
+
+                <div class="countryitems" africa></div>
+            </div>
+            <div class="continent" parent-asia>
+                <div class="continentName">
+                    <p>Asia</p>
+                </div>
+
+                <div class="countryitems" asia></div>
+            </div>
+            <div class="continent" parent-europe>
+                <div class="continentName">
+                    <p>Europe</p>
+                </div>
+
+                <div class="countryitems" europe></div>
+            </div>
+            <div class="continent" parent-northamerica>
+                <div class="continentName">
+                    <p>N. America</p>
+                </div>
+
+                <div class="countryitems" northamerica></div>
+            </div>
+            <div class="continent" parent-southamerica>
+                <div class="continentName">
+                    <p>S. America</p>
+                </div>
+
+                <div class="countryitems" southamerica></div>
+            </div>
+            <div class="continent" parent-oceania>
+                <div class="continentName">
+                    <p>Oceania</p>
+                </div>
+
+                <div class="countryitems" oceania></div>
+            </div>
+        </div>
+
+        <div class="popup" country-popup>
+            <div class="popup-background" onclick="closePopup()"></div>
+            <div class="popup-content" popup-content>
+
+            </div>
+        </div>
+    </div>
+    <template country-template>
+        <div class="countrybox">
+            <label country-link><div class="name" country-name></div></label>
+            
+        </div>
+    </template>
+</body>
+</html>
