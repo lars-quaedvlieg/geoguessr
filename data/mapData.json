@@ -1,15 +1,1 @@
-{
-  "countries": ["US", "CA", "MX", "GT", "DO", "CO", "EC", "PE", "BO", "CL", "AR", "UY", "BR", "IS", "IE", "GB", "NO", "SE", "FI", "EE", "LT", "PL", "DK"],
-  "data": {
-    "flag": {
-      "name": "Flag",
-      "format": "{0}",
-      "thousandSeparator": ","
-    },
-    "tip": {
-      "name": "Tip",
-      "format": "{0}"
-    }
-  },
-  "applyData": "flag"
-}
+{"countries": ["NL", "ES", "PT", "IT", "CZ", "SK", "CH", "LU", "BE", "MC", "AD", "US", "CA", "MX", "GT", "DO", "CO", "EC", "PE", "BO", "CL", "AR", "UY", "BR", "IS", "IE", "GB", "NO", "SE", "FI", "EE", "LT", "PL", "DK", "SI", "HU", "RO", "UA", "RS", "MK", "ME", "AL", "GR", "BG", "MT", "TR", "RU", "IL", "JO", "QA", "AE", "TN", "SN", "GH", "NG", "RW", "UG", "BW", "LS", "SZ", "KG", "IN", "LK", "BT", "BD", "TH", "KH", "LA", "CN", "TW", "JP", "KR", "MY", "ID", "SG"], "data": {"flag": {"name": "Flag", "format": "{0}", "thousandSeparator": ","}, "tip": {"name": "Tip", "format": "{0}"}}, "applyData": "flag"}
